@@ -15,12 +15,8 @@ Play Console or AdMob:
 
 1. Fill in every highlighted `TODO` in `index.html` — the responsible party's
    name, a contact email, and the effective date.
-2. Implement the UMP consent flow in the app. The advertising section currently
-   describes a consent step the app does not present. A policy that claims
-   behaviour the binary lacks is a written misstatement, which is a worse
-   position than an omission.
-3. Remove the draft banner and the `<meta name="robots" content="noindex">` tag.
-4. Make sure the Play Console Data Safety form matches this document exactly —
+2. Remove the draft banner and the `<meta name="robots" content="noindex">` tag.
+3. Make sure the Play Console Data Safety form matches this document exactly —
    mismatches between the two are a common cause of review rejection.
 
 The source of truth for the wording lives with the app, at
