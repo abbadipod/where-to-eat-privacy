@@ -1,26 +1,10 @@
-# Where To Eat — privacy policy hosting
+# Food For You — old privacy policy address (retired)
 
-This repository exists for one reason: Google Play and AdMob require a privacy
-policy at a **public URL that does not require a login**. The app's own source
-repository is private, so the policy is served from here instead.
+This page used to host the Food For You privacy policy. The policy now lives at
+**https://foodforyou.app/privacy**, and the data deletion section at
+**https://foodforyou.app/privacy#data-deletion**. Play Console's privacy policy
+URL and Delete data URL both point there (checked 8 October 2026).
 
-**Live page:** https://abbadipod.github.io/where-to-eat-privacy/
-
-Nothing else belongs in this repo. It contains no application code.
-
-## Status: DRAFT
-
-The published page is not the operative policy yet. Before the URL goes into
-Play Console or AdMob:
-
-1. Fill in every highlighted `TODO` in `index.html` — the responsible party's
-   name, a contact email, and the effective date.
-2. Remove the draft banner and the `<meta name="robots" content="noindex">` tag.
-3. Make sure the Play Console Data Safety form matches this document exactly —
-   mismatches between the two are a common cause of review rejection.
-
-The source of truth for the wording lives with the app, at
-`docs/privacy-policy.md` in the private `where-to-eat-app` repo, which also
-carries the developer checklist. Keep the two in sync — if the app ever adds
-analytics, crash reporting, accounts, or a backend, the "does NOT collect"
-section here becomes false immediately.
+`index.html` only forwards visitors (and any `#anchor` they arrived with) to the
+current policy, so old links keep working without showing out-of-date text.
+Don't put policy text back here; edit `web/privacy.html` in the app repository.
